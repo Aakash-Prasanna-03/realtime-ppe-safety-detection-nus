@@ -25,24 +25,14 @@ This project is an advanced automated face detection and violation tracking syst
 4. **Violation Logging:** Records each violation in a CSV report, including image evidence.
 5. **Object Detection:** (Optional) Uses YOLO/FastRCNN for detecting safety equipment, objects, or other compliance factors.
 
-## Example Outputs
 
-
-| Face Detection Output | Test Image 1 | Test Image 2 |
-|:--------------------:|:------------:|:------------:|
-| ![Face Detection](./outputs/screenshots/facedetection.png) | ![Test 1](./outputs/screenshots/test1.png) | ![Test 2](./outputs/screenshots/test2.png) |
-
-
-*Above: Example outputs showing face detection and test images with bounding boxes or model predictions.*
-
-
-## Additional Example Outputs (GitHub Images)
+## Results and Example Outputs
 
 | Face Detection Output | Test Image 1 | Test Image 2 |
 |:--------------------:|:------------:|:------------:|
-| ![Face Detection](./outputs/github%20images/facedetection.png) | ![Test 1](./outputs/github%20images/test1.png) | ![Test 2](./outputs/github%20images/test2.png) |
+| ![Face Detection](./results/facedetection.png) | ![Test 1](./results/test1.png) | ![Test 2](./results/test2.png) |
 
-*Above: Images from the `outputs/github images/` folder for GitHub display testing.*
+*Above: Example outputs showing face detection and test images with bounding boxes or model predictions. All images are from the `outputs/results/` folder for clarity and GitHub compatibility.*
 
 
 ## Project Structure

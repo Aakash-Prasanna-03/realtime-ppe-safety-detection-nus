@@ -1,7 +1,5 @@
 
-# Face Detection and Violation Tracking System
-
-![Face Detection Example](outputs/screenshots/facedetection.png)
+# Real-Time Safety PPE Detection and Violator Face Recognition System
 
 ## Overview
 This project is an advanced automated face detection and violation tracking system designed for real-time monitoring and reporting of unauthorized or unknown individuals in sensitive environments. It leverages state-of-the-art deep learning models (MTCNN, InceptionResnetV1, FastRCNN, YOLO) to detect faces and objects in images, compare them with registered users, and log security violations.
@@ -32,7 +30,7 @@ This project is an advanced automated face detection and violation tracking syst
 
 | Face Detection Output | Test Image 1 | Test Image 2 |
 |:--------------------:|:------------:|:------------:|
-| ![Face Detection](outputs/screenshots/facedetection.png) | ![Test 1](outputs/screenshots/test1.png) | ![Test 2](outputs/screenshots/test2.png) |
+| ![Face Detection](./outputs/screenshots/facedetection.png) | ![Test 1](./outputs/screenshots/test1.png) | ![Test 2](./outputs/screenshots/test2.png) |
 
 
 *Above: Example outputs showing face detection and test images with bounding boxes or model predictions.*

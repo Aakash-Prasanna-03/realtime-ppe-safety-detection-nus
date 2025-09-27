@@ -1,7 +1,7 @@
 
 # Face Detection and Violation Tracking System
 
-![Sample Detection Output](Screenshots/sample_detection1.png)
+![Sample Detection Output](outputs/screenshots/sample_detection1.png)
 
 ## Overview
 This project is an advanced automated face detection and violation tracking system designed for real-time monitoring and reporting of unauthorized or unknown individuals in sensitive environments. It leverages state-of-the-art deep learning models (MTCNN, InceptionResnetV1, FastRCNN, YOLO) to detect faces and objects in images, compare them with registered users, and log security violations.
@@ -31,7 +31,7 @@ This project is an advanced automated face detection and violation tracking syst
 
 | Multi-Object Detection (YOLO/FastRCNN) | Safety Cone Detection (YOLO) |
 |:--------------------------------------:|:---------------------------:|
-| ![Multi-Object](Screenshots/sample_detection1.png) | ![Safety Cones](Screenshots/sample_detection2.png) |
+| ![Multi-Object](outputs/screenshots/sample_detection1.png) | ![Safety Cones](outputs/screenshots/sample_detection2.png) |
 
 *Above: Example outputs showing object and safety cone detection with bounding boxes.*
 
@@ -147,8 +147,6 @@ conda activate <env-name>
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-[MIT](LICENSE)
 
 ---
 
@@ -183,8 +181,6 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-[MIT](LICENSE)
 
 ---
 

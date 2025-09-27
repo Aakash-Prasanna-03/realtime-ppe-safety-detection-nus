@@ -36,6 +36,15 @@ This project is an advanced automated face detection and violation tracking syst
 *Above: Example outputs showing face detection and test images with bounding boxes or model predictions.*
 
 
+## Additional Example Outputs (GitHub Images)
+
+| Face Detection Output | Test Image 1 | Test Image 2 |
+|:--------------------:|:------------:|:------------:|
+| ![Face Detection](./outputs/github%20images/facedetection.png) | ![Test 1](./outputs/github%20images/test1.png) | ![Test 2](./outputs/github%20images/test2.png) |
+
+*Above: Images from the `outputs/github images/` folder for GitHub display testing.*
+
+
 ## Project Structure
 ```
 │

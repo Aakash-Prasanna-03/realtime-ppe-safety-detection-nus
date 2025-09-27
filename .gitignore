@@ -9,6 +9,8 @@ outputs/reports/
 outputs/confusion_matrices/
 *.py[cod]
 # outputs/screenshots/
+# Do not ignore outputs/github images/ so images are tracked
+# outputs/github images/
 *$py.class
 
 # C extensions

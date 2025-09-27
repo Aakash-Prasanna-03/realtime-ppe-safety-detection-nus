@@ -1,0 +1,127 @@
+# Ignore CUDA check and image/label pair scripts
+cuda.py
+check_image_label_pairs.py
+check_image_label_pairs.ipynb
+check_image_label_pairs*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.*
+.coverage
+.pytest_cache/
+
+# VSCode
+.vscode/
+
+# Data, models, and outputs (ignore large or generated files)
+outputs/
+models/yolo/*.pt
+models/fastrcnn/*.pth
+models/embeddings/*.pkl
+data/dataset/train.zip
+data/dataset/*.zip
+*.csv
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Project outputs and models
+outputs/
+models/
+data/user_profiles/
+*.pth
+
+# Data, models, and outputs
+data/
+models/
+outputs/
+user_profiles/
+Screenshots/
+offcial photos/
+violations_report.csv
+face detection/face_embeddings.pkl
+finalproject/face_embeddings.pkl
+
+# Ignore notebook checkpoints and outputs
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Ignore model weights and large files
+*.pkl
+*.pth
+*.h5
+*.zip
+*.tar.gz
+*.tar
+*.npz
+*.npy
+*.csv
+*.log
+*.db
+*.sqlite3
+
+# Ignore temporary files
+~$*
+*.tmp
+*.bak

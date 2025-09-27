@@ -14,16 +14,16 @@ mtcnn = MTCNN(keep_all=True, device=device)
 resnet = InceptionResnetV1(pretrained='vggface2').eval().to(device)
 
 # Load known embeddings
-with open(r'D:\Nus internship\Intermediate\project 2\face detection\face_embeddings.pkl', 'rb') as f:
+with open(r'models/embeddings/face_embeddings.pkl', 'rb') as f:
     data = pickle.load(f)
 known_embeddings = data['embeddings']
 known_labels = data['labels']
 registered_users = set(known_labels)
 
 # Paths
-image_folder = 'Screenshots'
-profile_folder = 'user_profiles'
-violation_csv = 'violations_report.csv'
+image_folder = 'outputs/screenshots'
+profile_folder = 'data/user_profiles'
+violation_csv = 'outputs/reports/violations_report.csv'
 os.makedirs(profile_folder, exist_ok=True)
 
 # Load existing CSV (if any)

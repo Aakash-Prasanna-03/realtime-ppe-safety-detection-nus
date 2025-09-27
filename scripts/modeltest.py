@@ -14,7 +14,7 @@ num_classes = 10
 in_features = model.roi_heads.box_predictor.cls_score.in_features
 model.roi_heads.box_predictor = FastRCNNPredictor(in_features, num_classes)
 
-model_path = r"D:\Nus internship\Intermediate\project 2\final_model2.pth"
+model_path = r"models/fastrcnn/final_model2.pth"
 state_dict = torch.load(model_path, map_location=device)
 model.load_state_dict(state_dict)
 model.to(device)
@@ -86,7 +86,7 @@ while True:
             no_mask_start_time = current_time
         elif (current_time - no_mask_start_time >= continuous_no_mask_duration) and not screenshot_taken:
             timestamp = time.strftime("%Y-%m%d-%H-%M-%S")
-            filename = rf"D:\Nus internship\Intermediate\project 2\Screenshots\violation_{timestamp}.png"
+            filename = rf"outputs/screenshots/violation_{timestamp}.png"
             cv2.imwrite(filename, resized_frame)
             print(f"📸 Screenshot saved: {filename}")
             no_mask_start_time = current_time

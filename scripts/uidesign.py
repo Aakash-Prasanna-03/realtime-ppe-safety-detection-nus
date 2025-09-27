@@ -231,9 +231,9 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # File paths
-csv_path = "violations_report.csv"
-profile_folder = "user_profiles"
-screenshot_folder = "Screenshots"
+csv_path = "outputs/reports/violations_report.csv"
+profile_folder = "data/user_profiles"
+screenshot_folder = "outputs/screenshots"
 os.makedirs(profile_folder, exist_ok=True)
 
 def format_passport_image(img_path):

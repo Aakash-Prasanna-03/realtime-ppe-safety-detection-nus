@@ -5,8 +5,10 @@ check_image_label_pairs.ipynb
 check_image_label_pairs*
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+outputs/reports/
+outputs/confusion_matrices/
 *.py[cod]
+# outputs/screenshots/
 *$py.class
 
 # C extensions
